@@ -1,0 +1,39 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 75%);
+    cursor:crosshair;
+}
+#welcomeTxt{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color:aliceblue;   
+}
+.outer-div{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    gap:5px;
+    height: 100vh;
+    text-align: center;
+}
+.d1,.d4{
+    grid-column:span 2;
+}
+.inDiv{
+    border:2px solid aliceblue;
+    border-radius:5px;
+}
+.otherTxt{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color:aliceblue; 
+}
+.i1{
+    border-radius: 20px;
+    margin: 1%;
+
+}
